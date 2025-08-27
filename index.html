@@ -16,7 +16,7 @@
 <body >
 
   <!-- navbar related html -->
-  <div class="navbar flex justify-between items-center px-14 py-3 bg-[#FFFFFF]">
+  <div class="navbar flex flex-col md:flex-row justify-between items-center px-14 py-3 bg-[#FFFFFF]">
     <div class="flex items-center gap-3">
       <div>
         <img src="assets/logo.png" alt="" width="50px" height="50px">
@@ -39,13 +39,17 @@
 
 
    <!-- main section html -->
-    <div class="main bg-[#41ff6b1a] p-5 py-[40px] pt-[30px] flex gap-5">
-      <div class="  grid grid-cols-3 w-[75%] gap-4 ">
+    <div class="main bg-[#41ff6b1a] p-5 py-[40px] pt-[30px] flex flex-col md:flex-row gap-5">
+      <div class="  grid grid-cols-1 md:grid-cols-3 w-full md:w-[75%] gap-4 ">
         <!-- 11111 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+        <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/emergency.png" alt="" width="32px" height="32px">
         </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
+        </div>
+        
         <h2 class="text-[24px] font-bold text-black">জাতীয় জরুরি সেবা</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">National Emergency</p>
         <h3 class="text-[32px] font-bold text-black">999</h3>
@@ -57,8 +61,11 @@
       </div>
       <!-- 22222 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+        <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/police.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">পুলিশ</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Police</p>
@@ -71,8 +78,11 @@
       </div>
       <!-- 33333 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+        <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/fire-service.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">ফায়ার সার্ভিস</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Fire Service</p>
@@ -85,8 +95,11 @@
       </div>
       <!-- 444444 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+       <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/ambulance.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">অ্যাম্বুলেন্স</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Ambulance</p>
@@ -99,8 +112,11 @@
       </div>
       <!-- 5555 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+        <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/emergency.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">নারী ও শিশু সহায়তা</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Women & Child Helpline</p>
@@ -113,8 +129,11 @@
       </div>
       <!-- 666666 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+        <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/emergency.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">দুদক</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Anti-Corruption</p>
@@ -127,8 +146,11 @@
       </div>
       <!-- 777777 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+       <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/emergency.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">বিদ্যুৎ বিভ্রাট</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Electricity Outage</p>
@@ -141,8 +163,11 @@
       </div>
       <!-- 8888888 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+       <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/brac.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">ব্র্যাক</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Brac</p>
@@ -155,8 +180,11 @@
       </div>
       <!-- 99999 -->
       <div class="bg-white p-8 rounded-[12px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
-        <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
+       <div class="flex justify-between items-center">
+          <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] p-2 flex justify-center items-center mb-2 ">
           <img src="assets/Bangladesh-Railway.png" alt="" width="32px" height="32px">
+        </div>
+          <i class="fa-regular fa-heart text-[30px]"></i>
         </div>
         <h2 class="text-[24px] font-bold text-black">বাংলাদেশ রেলওয়ে</h2>
         <p class="text-[18px] text-[#5C5C5C] font-normal ">Bangladesh Railway</p>
@@ -169,7 +197,7 @@
       </div>
 
     </div>
-    <div class="history w-[25%] p-4 bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-[12px]">
+    <div class="history w-full md:w-[25%] p-4 bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] rounded-[12px]">
       <div class="flex w-full justify-between items-center">
         <div class="flex items-center gap-1">
           <i class="fa-solid fa-clock-rotate-left"></i>
