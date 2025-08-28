@@ -15,18 +15,12 @@ function getById(id){
 let sum=0;
 const countLove = getByClass('count-love');
 for(const count of countLove){
-  count.addEventListener('mouseover', function(){
-    count.style.color = 'red';
-  })
   count.addEventListener('click',function(){
     sum++;
     const putCountLove = parseInt(getById('put-count-love').innerText);
-    
-   getById('put-count-love').innerText = sum;
+    getById('put-count-love').innerText = sum;
    })
-   count.addEventListener('mouseout',function(){
-    count.style.color = 'black';
-   })
+   
 }
 
 
@@ -55,7 +49,7 @@ for(const call of btnCall){
       const historyContainer = getById('history-container');
       const newDiv = document.createElement("div");
       newDiv.innerHTML = `
-      <div class="flex justify-between items-center p-4 w-full h-[70px] rounded-[8px] mb-1 bg-[#fafafa]">
+      <div class="flex justify-between items-center p-4 w-full h-[70px] rounded-[8px] mb-2 bg-[#fafafa]">
          <div>
           <h2 class="text-[18px] text-[#111111] font-normal">${details.name}</h2>
           <p class="text-[18px] text-[#5C5C5C] font-normal">${details.number}</p>
@@ -65,7 +59,11 @@ for(const call of btnCall){
          </div>
        </div>`
        historyContainer.appendChild(newDiv);
-       console.log(historyContainer.innerHTML);
+       
+
+       getById('clear-btn').addEventListener('click',function(){
+         historyContainer.innerHTML = '';
+       })
     }
 
   })
