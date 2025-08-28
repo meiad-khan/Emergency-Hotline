@@ -12,13 +12,13 @@ function getById(id){
 }
 
 // make the heart icon clickable and dynamic....
-let sum=0;
+let sumOfHeart=0;
 const countLove = getByClass('count-love');
 for(const count of countLove){
   count.addEventListener('click',function(){
-    sum++;
+    sumOfHeart++;
     const putCountLove = parseInt(getById('put-count-love').innerText);
-    getById('put-count-love').innerText = sum;
+    getById('put-count-love').innerText = sumOfHeart;
    })
    
 }
@@ -66,6 +66,18 @@ for(const call of btnCall){
        })
     }
 
+  })
+}
+
+
+//make copy btn clickable and dynamic.....
+let sumOfCopy = 0;
+const copies = getByClass('btn-copy');
+for(const copy of copies){
+  copy.addEventListener('click', function(){
+    sumOfCopy++;
+    const copyCount = parseInt(getById('copy-count').innerText);
+    getById('copy-count').innerText = sumOfCopy;
   })
 }
 
