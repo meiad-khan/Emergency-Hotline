@@ -5,7 +5,7 @@
 **getElementById** : When we want to find one element, we use getElementById. It returns a single element<br>
 **getElementsByClassName** : When we want to find all the matching elements whom we give the same class name, we use getElementsByClassName. It returns a HTMLCollection.<br>
 **querySelector** : When we want to select the first matching element by an Id or a ClassName, we use querySelector. It returns a single element.<br>
-**querySelectorAll** : When we want to select the all matching element, we use querySelector. It returns a NodeList.<br>
+**querySelectorAll** : When we want to select the all matching element, we use querySelectorAll. It returns a NodeList.<br>
 
 
 2. How do you **create and insert a new element into the DOM**?<br>
