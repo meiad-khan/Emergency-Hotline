@@ -14,10 +14,16 @@
 **Create a new element** : To create a new element I use **document.createElement()**. In the first bracket I put the name of the element that I want to create.<br>
 **Insert a new element** : To insert a new element into the DOM I use **parentDiv.appendChild()** Here parentDiv is the element where I put a new element and in the first bracket I put the child element name.<br>
 
-
-
-
 3. What is **Event Bubbling** and how does it work?
+**Ans:**<br>
+When an events happen on an element, it first runs handlers on that elements. Then it bubble up to it's parent element, then bubble up to parent's parent.<br>
+
 4. What is **Event Delegation** in JavaScript? Why is it useful?
+**Ans:**<br>
+Event delegation is a design pattern in JavaScript used to efficiently manage and handle events on multiple child elements by attaching a single event listener to a common ancestor element. It is useful because instead of using multiple listeners, we use just one..<br>
+
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
+**Ans:** <br>
+**preventDefault()** : Stops the default browser action.
+**stopPropagation()** : Stops the event from bubbling up.
 
