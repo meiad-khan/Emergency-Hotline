@@ -1,18 +1,18 @@
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
 
-**Ans:** 
-**getElementById** : When we want to find one element, we use getElementById. It returns a single element.
-**getElementsByClassName** : When we want to find all the matching elements whom we give the same class name, we use getElementsByClassName. It returns a HTMLCollection.
-**querySelector** : When we want to select the first matching element by an Id or a ClassName, we use querySelector. It returns a single element.
-**querySelectorAll** : When we want to select the all matching element, we use querySelector. It returns a NodeList.
+**Ans:** <br>
+**getElementById** : When we want to find one element, we use getElementById. It returns a single element<br>
+**getElementsByClassName** : When we want to find all the matching elements whom we give the same class name, we use getElementsByClassName. It returns a HTMLCollection.<br>
+**querySelector** : When we want to select the first matching element by an Id or a ClassName, we use querySelector. It returns a single element.<br>
+**querySelectorAll** : When we want to select the all matching element, we use querySelector. It returns a NodeList.<br>
 
 
-2. How do you **create and insert a new element into the DOM**?
+2. How do you **create and insert a new element into the DOM**?<br>
 
-**Ans:** 
-**Create a new element** : To create a new element I use **document.createElement()**. In the first bracket I put the name of the element that I want to create.
-**Insert a new element** : To insert a new element into the DOM I use **parentDiv.appendChild()** Here parentDiv is the element where I put a new element and in the first bracket I put the child element name.
+**Ans:** <br>
+**Create a new element** : To create a new element I use **document.createElement()**. In the first bracket I put the name of the element that I want to create.<br>
+**Insert a new element** : To insert a new element into the DOM I use **parentDiv.appendChild()** Here parentDiv is the element where I put a new element and in the first bracket I put the child element name.<br>
 
 
 
