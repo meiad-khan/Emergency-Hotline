@@ -72,12 +72,17 @@ for(const call of btnCall){
 
 //make copy btn clickable and dynamic.....
 let sumOfCopy = 0;
+
 const copies = getByClass('btn-copy');
 for(const copy of copies){
   copy.addEventListener('click', function(){
-    sumOfCopy++;
-    const copyCount = parseInt(getById('copy-count').innerText);
+    const parent = this.parentElement.parentElement;
+     const phoneNumber = parent.querySelector('.phone-number').innerText;
+     navigator.clipboard.writeText(phoneNumber).then(()=>{
+      alert("নম্বর কপি হয়েছেঃ "+ phoneNumber);
+      sumOfCopy++;
     getById('copy-count').innerText = sumOfCopy;
-  })
+     });
+  });
 }
 
